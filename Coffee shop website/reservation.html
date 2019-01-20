@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>The Lighthouse Bistro</title>
+    <link rel="stylesheet" type="text/css" href="bistro.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src ="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset = "utf-8"> </script>
+    <script src="javascript.js" charset = "utf-8"></script>
+
+</head>
+
+<body>
+<div id="wrapper">
+
+    <header>
+
+        <h1>The Lighthouse Bistro</h1>
+
+    </header>
+
+    <br><br>
+
+    <nav>
+        <ul>
+            <li>  <a href="index.html">Home</a></li>
+            <li>  <a href="menu.html">Our Menu</a></li>
+            <li>  <a href="entertainment.html">Entertainment Schedule</a></li>
+            <li>  <a href="reservation.html">Reservations</a></li>
+        </ul>
+        <br>
+
+
+        <div id="address">
+            The Lighthouse Bistro<br>
+            #27 Lighthouse Road<br>
+            Mackinac City, Michigan 49701 <br>
+            <h3 id="phone2">888-555-5555</h3>
+            <h3><a id="phone" href ="tel:888-555-555">888-555-5555</a></h3>
+        </div>
+
+    </nav>
+
+    <main>
+        <h2>Reservations at The Lighthouse Bistro</h2>
+        <h3>Contact Us Today To Make Your Dining Reservation!</h3>
+        <p>Required fields are marked with asterisk *</p>
+        <div id="form">
+            <form method = "post" action = "http://cs.ucf.edu/~markl/bistroformreport.php">
+                <fieldset>
+                    <br>
+                    <label>*First Name: &nbsp; </label>
+                    <input type = "text" id = "FirstName" name = "FirstName" required autofocus/> <br><br>
+                    <label>*Last Name: &nbsp; </label>
+                    <input type = "text" id = "LastName" name = "LastName" required/><br><br>
+                    <label>*E-mail: &nbsp; </label>
+                    <input type = "email" id = "Email" name ="Email" required/><br><br>
+                    <label>Phone: &nbsp; </label>
+                    <input type = "tel" id = "Phonenum" name = "Phone" /> <br><br>
+                    <label>Date: &nbsp; </label>
+                    <input type = "date" id = "Arrival" name = "Arrival"/> <br><br>
+                    <label>Time: &nbsp; </label>
+                    <input type = "time" id = "Time" name = "Time"/> <br><br>
+                    <label>Number of Guests: &nbsp;</label>
+                    <input type="number" id="Guests" name="Guests"><br><br>
+                    <label>*Comments: &nbsp; </label>
+                    <textarea id= "textarea" name = "Comments" rows = "2" cols = "32" maxlength="64" required> </textarea>
+                    <label></label><span id="textarea_feedback"></span><br><br>
+
+
+                    <input type = "submit" value = "Submit" id = "submit"/> <br><br>
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
+    <br><br>
+
+    <footer>
+
+        Copyright &copy; 2018 The Lighthouse Bistro<br>
+        <a class="footer" href="name">fahim@zubaer.com</a>
+        <div id = "date">
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

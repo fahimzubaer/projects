@@ -1,0 +1,333 @@
+
+body{
+    color: #221811;
+    font-family: Verdana;
+    background: #00BFFF url(images/ocean.jpg) repeat-x;
+
+}
+
+h1{
+    color:#FFE4C4;
+    line-height: 200%;
+}
+
+h3{
+    color:#FFE4C4;
+}
+
+
+footer{
+
+    background-color: #191970;
+    color: darkblue;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    background-image: url(images/lighthouselogo1.jpg);
+    height: 55px;
+    margin-top: -2em;
+    border: solid 1px;
+    border-radius: 6px;
+    border-color: #FFE4C4
+
+}
+
+a.footer{
+    color: darkblue;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+
+#address {
+    color: #191970;
+    font-size: 12pt;
+    border: solid 1px;
+    font-family: Calibri;
+    background-image: url("images/ocean.jpg");
+    background-repeat: no-repeat;
+    border-color: #FFE4C4;
+    border-radius:2px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+
+h1{
+    color: #00008B;
+    line-height: 100%;
+    font-size: 34pt;
+
+}
+
+h3{
+    color: #FFE4C4;
+}
+
+form
+{
+    background-color: #D8D8D8;
+    border-collapse: collapse;
+    border: 3px solid #00008B;
+    color: darkblue;
+}
+
+label
+{
+    display: inline-block;
+    width: 190px;
+    text-align:right;
+}
+
+input[type=submit]{
+    background-color: #00BFFF;
+}
+
+.hover{
+    background-color: yellow;
+    color: red;
+}
+
+h4{
+    background-color: burlywood ;
+}
+
+#textarea_feedback{
+    color: green;
+}
+
+.entertainmentimg{
+    height: 169px;
+    width: 226px;
+}
+
+header {
+    color: #00008B;
+    background: url("images/lighthouselogo.jpg");
+    background-repeat: no-repeat;
+    height: 110px;
+    border: solid 1px;
+    border-color: #FFE4C4;
+    border-radius: 15px;
+    padding-left: 130px;
+    padding-top: 30px;
+
+}
+nav{
+    text-align: left;
+    font-weight: 900;
+    font-size: 20px;
+    width: 200px;
+    display:table-cell;
+
+}
+
+
+
+main{
+    display:table-cell;
+    padding-left: 28px;
+
+}
+
+li{
+    color:#FFE4C4;
+}
+
+nav ul li a{
+    text-decoration:  none;
+}
+main ul{
+    list-style-image: url('images/marker.gif');
+}
+ nav ul{
+     list-style-type: none;
+     text-decoration:  none;
+ }
+
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:900px;
+    min-width:750px;
+}
+th.one{
+    background-color: #00008B;
+    color: white;
+    padding: 5px;
+    border:solid 3px;
+    border-color: #FFE4C4;
+}
+
+#mainimage{
+    float: right;
+    height: 350px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+
+tr.oddrow{
+    background-color: #A9A9A9;
+}
+
+td img{
+    width: 100px;
+    height: 75px;
+}
+
+td img.index{
+    height:350px;
+    width:250px;
+    float: right;
+    padding-left: 10px;
+}
+
+table{
+
+    border: solid 3px;
+    border-collapse: collapse;
+    border-color: #FFE4C4;
+    width: 100%;
+
+
+}
+
+td{
+    border:solid 3px;
+    border-color: #FFE4C4;
+    padding: 10px;
+
+}
+
+caption{
+    text-align: left;
+    font-size: 1.2em;
+
+}
+
+td.noborder{
+    border: none;
+}
+
+tr{
+    text-align: center;
+}
+
+tr td:nth-of-type(2){
+    text-align: left;
+}
+
+#phone
+{
+    display: none;
+}
+
+#phone2{
+    display: inline;
+}
+p.description{
+    display: none;
+}
+
+h2.menu{
+    display: none;
+}
+
+
+
+/*Tablet Version*/
+@media only screen and (max-width: 64em) {
+    body{
+        margin: 0px;
+    }
+    #wrapper{
+        min-width: 0px;
+        width: auto;
+        box-shadow: none;
+    }
+    main{
+
+        display: block;
+    }
+    nav{
+        display: inline;
+        width: auto;
+        text-align: center;
+        padding: 0.5em;
+    }
+    nav ul li{
+        display: inline;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+    }
+    #mainimage{
+        margin-bottom: 5px;
+    }
+
+    #address{
+        border: none;
+        background-image: none;
+    }
+}
+
+/*Phone Version*/
+@media only screen and (max-width: 37.5em){
+    header{
+        padding-top: 1em;
+    }
+    main{
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 90%;
+    }
+    h1{
+        font-size: 1.5em;
+
+    }
+    nav ul li{
+        display: block;
+        margin: 0px;
+        border-bottom: 1px solid;
+        border-color: #FFE4C4;
+    }
+
+    input,label
+    {
+        display:block;
+        text-align:left;
+    }
+
+    #mainimage{
+        display: none;
+
+    }
+    nav ul li a{
+        display: block;
+
+
+    }
+    table{
+        display: none;
+    }
+    #phone
+    {
+        display: inline;
+    }
+    #phone2{
+        display: none;
+    }
+    p.description{
+        display: inline;
+    }
+
+    h2.menu{
+        display: inline;
+    }
+
+
+}

@@ -1,0 +1,22 @@
+/*  Fahim Zubaer
+    Assignment-3
+    CGS-3175 Internet Applications
+    March 11, 2018
+ */
+
+.card{
+    border: solid 1px #aaa;
+    border-radius: 9px;
+    width: 95px;
+    height: 150px;
+    float: left;
+    background-color: white;
+    padding: 3px 3px 3px 3px;
+
+}
+
+.card .value{
+    font-size: 24pt;
+    font-family: sans-serif;
+}
+
